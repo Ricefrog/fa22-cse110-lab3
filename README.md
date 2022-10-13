@@ -1,1 +1,1 @@
-Link: [https://ricefrog.github.io/CSE110_Lab2/](https://ricefrog.github.io/CSE110_Lab2/)
+Link: [https://ricefrog.github.io/fa22-cse110-lab3](https://ricefrog.github.io/fa22-cse110-lab3)
