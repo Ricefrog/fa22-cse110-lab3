@@ -1,0 +1,113 @@
+/*
+ * CSS keeps things stylish.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+@media only screen and (max-width: 600px) {
+  body {
+    color: green;
+    background-color: lightblue;
+  }
+}
+
+* {
+	background-color: rgb(105, 64, 58);
+}
+
+body {
+	margin: 0 0 0 0;
+}
+
+.main-title {
+	color: #ed0c0c;
+	margin: auto;
+	margin-left: 1em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	text-decoration: underline;
+	font-family: 'Inspiration', 'cursive';
+}
+
+nav {
+	background-color: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	position: fixed;
+	min-width: 99%;
+	border-width: 5px;
+	border-style: ridge;
+	border-radius: 10px;
+	border-color: #78c49a;
+}
+
+nav > * {
+	background-color: black;
+	color: hsl(147 71% 46%);
+	padding: 3px 0 0.2em 0;
+}
+
+#prelude {
+	padding-right: 20px;
+	text-align: center;
+}
+
+#demonic {
+	display: block;
+}
+
+#paimon1 {
+	max-width: 50%;
+}
+
+#paimon1 {
+	display: none;
+}
+
+#paimonflexbox {
+	display: flex;
+	justify-content: flex-end;
+	gap: 3px;
+	flex-wrap: wrap;
+}
+
+.paimon {
+	height: 225px;
+	width: 200px;
+	position: sticky;
+	top: 0;
+}
+
+.paimon + .paimon {
+	height: 200px;
+}
+
+.paimon:hover {
+	height: 235px;
+	width: 210px;
+}
+
+#lastpaimon {
+	flex-grow: 4;
+	min-width: 200px;
+}
+
+div[class~="hideme"] {
+	display: none;
+}
+
+fieldset textarea:active {
+	height: 300px;
+
+}
+
+hr, audio, video {
+	border-width: 1px;
+	border-color: red;
+}
+
+li ~ li {
+	color: green;
+}
